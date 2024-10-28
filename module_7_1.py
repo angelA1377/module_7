@@ -125,18 +125,3 @@ print(p2)  # __str__
 s1.add(p1, p2, p3)
 
 print(s1.get_products())
-
-# Вывод на консоль:
-# Первый запуск:
-# Spaghetti, 3.4, Groceries
-# Продукт Potato уже есть в магазине
-# Potato, 50.5, Vegetables
-# Spaghetti, 3.4, Groceries
-
-# Второй запуск:
-# Spaghetti, 3.4, Groceries
-# Продукт Potato уже есть в магазине
-# Продукт Spaghetti уже есть в магазине
-# Продукт Potato уже есть в магазине
-# Potato, 50.5, Vegetables
-# Spaghetti, 3.4, Groceries
